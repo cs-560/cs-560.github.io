@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #131313;
+  background-image: url(../imgs/fencing-dark.png);
+  background-size: cover;
+  color: #fff;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav > li > a {
+  color : #fff;
+  padding: 10px 2px 5px;
+  margin: 0 15px;
+  border-radius: 0;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: black;
+  color: #f12545;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background-color: #000;
+  border-bottom: 4px solid #f12545;
+}
+
+.jumbotron {
+  background: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 2.4em;
+}
+
+.jumbotron p {
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+.row-projects {
+  margin: 40px 0;
+}
+
+.projects {
+  width: 260px;
+  margin: 20px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  padding: 20px 10px;
+}
+
+.btn-default {
+  background-color: inherit;
+  color: #f12545;
+  border: 2px solid #f12545;
+  font-style: 1.4em;
+}
+
+li a {
+  color: #fff;
+}
+
+li a::active {
+  background-color: #000;
+}
+
+.btn-default:active {
+  background-color: red;
+}
+
+.projects:hover {
+  background-color: #e3e3e3;
+  color: #333;
+}
+
+.btn-default:hover {
+  background-color: #f12545;
+  color: #fff;
+  border: 2px solid #f12545;
+}
+
+/* FOOTER */
+
+.footer {
+  margin-bottom: 20px;
+}
+
+.footer-left {
+  float: left;
+  overflow: hidden;
+}
+
+.footer-right {
+  float: right;
+  overflow: hidden;
+}
+
+/* TEAM PAGE */
+
+.team-members {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.team-members > p {
+  text-align: left;
+}
+
+figure > img {
+  width: 180px;
+  height: 180px;
+  padding: 10px;
+}
+
+figcaption {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}

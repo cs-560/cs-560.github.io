@@ -1,1 +1,1 @@
-# cs-560.github.io
+# lab-book-cs-560
