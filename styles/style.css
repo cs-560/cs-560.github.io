@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif+Caption|Open+Sans:300,300italic,700);
+
 * {
   box-sizing: border-box;
 }
@@ -10,14 +12,20 @@ body {
   color: #fff;
 }
 
-.nav {
-  margin-top: 10px;
+.header > h3 > a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header > h3 > a:hover {
+  color: #f12545;
 }
 
 .nav > li > a {
   color : #fff;
   padding: 10px 2px 5px;
-  margin: 0 15px;
+  margin: 10px 15px;
   border-radius: 0;
 }
 
@@ -60,50 +68,54 @@ body {
   padding: 20px 10px;
 }
 
+.projects:hover {
+  background-color: #e3e3e3;
+  color: #333;
+}
+
 .btn-default {
   background-color: inherit;
   color: #f12545;
   border: 2px solid #f12545;
   font-style: 1.4em;
 }
-
-li a {
-  color: #fff;
-}
-
-li a::active {
-  background-color: #000;
-}
-
-.btn-default:active {
-  background-color: red;
-}
-
-.projects:hover {
-  background-color: #e3e3e3;
-  color: #333;
-}
-
 .btn-default:hover {
   background-color: #f12545;
   color: #fff;
   border: 2px solid #f12545;
 }
 
+h1,h2,h3,h4,h5,h6 {
+  font-family: "PT Serif Caption", cursive;
+  font-weight: 400;
+}
+p,a,li,blockquote {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
 /* FOOTER */
 
 .footer {
-  margin-bottom: 20px;
+   position: fixed;
+   left: 0px;
+   bottom: 0px;
+   height: 40px;
+   width: 100%;
+   background: #000;
+   padding-top: 10px;
 }
 
 .footer-left {
   float: left;
   overflow: hidden;
+  padding-left: 10%;
 }
 
 .footer-right {
   float: right;
   overflow: hidden;
+  padding-right: 10%;
 }
 
 /* TEAM PAGE */
