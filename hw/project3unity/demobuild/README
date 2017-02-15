@@ -1,0 +1,10 @@
+Controls:
+  Arrow Keys or WASD to move.
+  Mouse to look around.
+  Right Mouse Button to open or close menu.
+  Left Mouse Button to trigger UI components.
+
+Notes:
+  This demo is for presenting the interface for a UI app.
+  Uses center of view instead of cursor to interact with UI.
+  Fencing/Animation related content has not been implemented in this build.
