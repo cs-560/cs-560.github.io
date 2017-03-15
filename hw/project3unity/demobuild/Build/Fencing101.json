@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "Fencing101.data.unityweb",
+"asmCodeUrl": "Fencing101.asm.code.unityweb",
+"asmMemoryUrl": "Fencing101.asm.memory.unityweb",
+"asmFrameworkUrl": "Fencing101.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
