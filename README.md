@@ -8,6 +8,6 @@
 
 ### Project 3 - Fencing in VR
 - [Unity Web Player](https://cs-560.github.io/hw/project3unity/demobuild/webdemo.html)
-- [.apk file - Google Drive](https://drive.google.com/file/d/0B-ly6qHwGAJjUGdGSDRnVGZZVjg/view?usp=sharing)
-- [.apk file - Dropbox](https://www.dropbox.com/s/lojs2q6aqhsnvfa/fencing101VR.apk?dl=0)
+- [.apk file - Google Drive](https://drive.google.com/drive/folders/0B-ly6qHwGAJjR1dmR0RrbFQxeFU?usp=sharing)
+- [.apk file - Dropbox](https://www.dropbox.com/sh/d3h0gp36181teal/AAA9KKt_z84xvsxkeMRZY69Ma?dl=0)
 
